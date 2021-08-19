@@ -1,11 +1,12 @@
 import React from "react";
 import Beaches from "./BeachTemp/Beaches";
-import './App.css';
+import "./App.css";
 
 function App() {
   return (
     <div className="App">
-            <Beaches />
+      <h1>Hello</h1>
+      <Beaches />
     </div>
   );
 }
