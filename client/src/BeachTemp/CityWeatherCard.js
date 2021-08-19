@@ -33,6 +33,9 @@ const CityWeatherCard = ({ cityWeather }) => {
 
   return (
     //rendering city weather card
+   <div>
+     <h1>Cards</h1>
+  
     <Card
       className="weatherCard"
       key={cityWeather.id}
@@ -55,6 +58,7 @@ const CityWeatherCard = ({ cityWeather }) => {
         <Card.Text>{cityWeather.weather.temprature + "°C "}</Card.Text>
       </Card.Body>
     </Card>
+    </div>
   );
 };
 
